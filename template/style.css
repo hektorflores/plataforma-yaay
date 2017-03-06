@@ -3133,9 +3133,8 @@ fieldset[disabled] a.btn {
   pointer-events: none;
 }
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: #fff;
+  background-color: #67C1A0;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -5994,23 +5993,78 @@ button.close {
 }
 .modal-header {
   padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  background-color: #67C1A0
 }
+.modal-luz {
+   margin-right: -50%;
+  width: 0;
+   height: 0;
+   border-top: 40px solid #67C1A0;
+   border-left: 30px solid transparent;
+   border-right: 30px solid transparent;
+}
+
 .modal-header .close {
   margin-top: -2px;
 }
 .modal-title {
   margin: 0;
   line-height: 1.42857143;
+  font-family: inherit;
+  color: #fff;
+  text-align: center;
 }
 .modal-body {
-  position: relative;
-  padding: 15px;
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: stretch;
+  align-items: stretch;
 }
+
+.modal-description {
+  width: 100%;
+  padding: 1em;
+  box-sizing: border-box;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  -ms-flex-flow: row wrap;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+div.modal-description label{
+  width: 70%;
+}
+
 .modal-footer {
   padding: 15px;
   text-align: right;
   border-top: 1px solid #e5e5e5;
+  text-align: center;
 }
 .modal-footer .btn + .btn {
   margin-left: 5px;
@@ -6047,6 +6101,11 @@ button.close {
     width: 900px;
   }
 }
+div.modal-body div {
+  width: 48%;
+  margin-bottom: 1em;
+}
+
 .tooltip {
   position: absolute;
   z-index: 1070;
