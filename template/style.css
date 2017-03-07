@@ -313,6 +313,11 @@ th {
     orphans: 3;
     widows: 3;
   }
+  a {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: auto;
+  }
   h2,
   h3 {
     page-break-after: avoid;
@@ -1190,7 +1195,7 @@ figure {
 }
 img {
   vertical-align: middle;
-  margin-top: -332px;
+  margin-top: -333px;
   width: 100%;
 }
 .img-responsive,
@@ -2625,7 +2630,7 @@ output {
 }
 .form-control {
   display: block;
-  width: 100%;
+  width: auto;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
@@ -3134,7 +3139,7 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #fff;
-  background-color: #67C1A0;
+  background-color: #337ab7;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -4563,7 +4568,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 }
 .navbar-default {
   /* background-color: #f8f8f8; */
-  border-color: #e7e7e7;
+  border-bottom: 1px solid #e7e7e7;
 }
 .navbar-default .navbar-brand {
   color: #777;
@@ -6102,7 +6107,7 @@ div.modal-description label{
   }
 }
 div.modal-body div {
-  width: 48%;
+  width: 76%;
   margin-bottom: 1em;
 }
 
@@ -7009,13 +7014,17 @@ div.modal-body div {
     display: none;
   }
 
-  img {
-      vertical-align: middle;
-      margin-top: -130px;
+  .text2-section4 {
+    display: none;
   }
 
-  .fields{
-    margin-left: -53%;
+  img {
+      vertical-align: middle;
+      margin-top: -132px;
+  }
+
+  .m-filed{
+    margin-left: 5%;
   }
 
   .label-section3{
@@ -7024,6 +7033,26 @@ div.modal-body div {
     font-size: 20px;
   }
 
+  .ico-footer {
+      display: inline-block;
+      width: 8em;
+      margin-top: 11%;
+      margin-left: -10%;
+      margin-bottom: 7%;
+  }
+
+  .footer-space {
+      margin-top: 1%;
+      margin-bottom: 1%;
+      margin-left: -17%;
+  }
+
+  .form-control-input{
+    width: 100%
+  }
+  .form-control-position{
+    margin-left: -36%;
+  }
 }
 
 @media (min-width: 375px)and (max-width: 424px){
@@ -7093,9 +7122,13 @@ div.modal-body div {
     display: none;
   }
 
+  .text2-section4 {
+    display: none;
+  }
+
   img {
       vertical-align: middle;
-      margin-top: -130px;
+      margin-top: -132px;
   }
 
   .image2 {
@@ -7103,14 +7136,35 @@ div.modal-body div {
       margin-top: -64px;
   }
 
-  .fields{
-    margin-left: -65%;
+  .m-filed{
+    margin-left: 5%;
   }
 
   .label-section3{
     margin-left: -53%;
     width: 148%;
     font-size: 20px;
+  }
+
+  .ico-footer {
+      display: inline-block;
+      width: 8em;
+      margin-top: 11%;
+      margin-left: -10%;
+      margin-bottom: 7%;
+  }
+
+  .footer-space {
+      margin-top: 1%;
+      margin-bottom: 1%;
+      margin-left: -15%;
+  }
+
+  .form-control-input{
+    width: 100%
+  }
+  .form-control-position{
+    margin-left: -36%;
   }
 
 }
@@ -7182,6 +7236,10 @@ div.modal-body div {
     display: none;
   }
 
+  .text2-section4 {
+    display: none;
+  }
+
   img {
       vertical-align: middle;
       margin-top: -134px;
@@ -7191,14 +7249,37 @@ div.modal-body div {
       vertical-align: middle;
       margin-top: -64px;
   }
-  .fields{
-    margin-left: -54%;
+
+  div.modal-body div {
+      width: 65%;
+      margin-bottom: 1em;
   }
 
   .label-section3{
     margin-left: -45%;
     width: 148%;
     font-size: 20px;
+  }
+
+  .ico-footer {
+      display: inline-block;
+      width: 8em;
+      margin-top: 11%;
+      margin-left: -10%;
+      margin-bottom: 7%;
+  }
+
+  .footer-space {
+      margin-top: 1%;
+      margin-bottom: 1%;
+      margin-left: -1%;
+  }
+  
+  .form-control-input{
+    width: 100%
+  }
+  .form-control-position{
+    margin-left: -36%;
   }
 
 }
@@ -7246,10 +7327,21 @@ div.modal-body div {
     position: relative;
     align-items: center;
     text-align: center;
-    width: 63%;
+    width: 89%;
     color: #fff;
-    margin-left: 19%;
-    top: 8.9em;
+    margin-left: 6%;
+    top: 9.9em;
+    font-size: 20px;
+  }
+
+  .text2-section4 {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 58%;
+    color: #fff;
+    margin-left: 21%;
+    top: 10.9em;
     font-size: 20px;
   }
 
@@ -7270,7 +7362,7 @@ div.modal-body div {
 
   img {
       vertical-align: middle;
-      margin-top: -201px;
+      margin-top: -207px;
       width: 100%;
   }
 
@@ -7278,6 +7370,17 @@ div.modal-body div {
     margin-left: -16%;
     width: 116%;
     font-size: 20px;
+  }
+
+  .ico-footer {
+      display: inline-block;
+      width: 8em;
+      margin-top: 11%;
+      margin-left: 5%;
+  }
+
+  .form-control-input{
+    width: 100%
   }
 
 }
@@ -7311,7 +7414,18 @@ div.modal-body div {
     width: 97%;
     color: #fff;
     margin-left: 2%;
-    top: 3.9em;
+    top: 7.9em;
+    font-size: 27px;
+  }
+
+  .text2-section4 {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 58%;
+    color: #fff;
+    margin-left: 21%;
+    top: 8.9em;
     font-size: 27px;
   }
 
@@ -7339,6 +7453,22 @@ div.modal-body div {
   .fields{
     margin-left: 6%;
     width: 34%;
+  }
+
+  .position-modal{
+    width: 46% !important;
+    margin-top: -8%;
+    margin-left: 15%;
+  }
+
+  .listo-modal{
+    float: right;
+    margin-right: -38%;
+    margin-top: -27%;
+  }
+
+  .form-control-input{
+    width: 100%
   }
 
 }
@@ -7375,11 +7505,22 @@ div.modal-body div {
     position: relative;
     align-items: center;
     text-align: center;
-    width: 82%;
+    width: 97%;
     color: #fff;
-    margin-left: 11%;
-    top: 3.9em;
-    font-size: 36px;
+    margin-left: 2%;
+    top: 10.9em;
+    font-size: 27px;
+  }
+
+  .text2-section4 {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 58%;
+    color: #fff;
+    margin-left: 21%;
+    top: 12.9em;
+    font-size: 27px;
   }
 
   .button-section4 {
@@ -7398,8 +7539,30 @@ div.modal-body div {
   }
 
   .fields{
-    margin-left: 6%;
-    width: 34%;
+    margin-left: 14%;
+    width: 28%;
+  }
+
+  .right-fields{
+    float: right;
+    margin-top: -20.5%;
+    margin-right: 17%;
+  }
+
+  .position-modal{
+    width: 46% !important;
+    margin-top: -8%;
+    margin-left: 15%;
+  }
+
+  .listo-modal{
+    float: right;
+    margin-right: -38%;
+    margin-top: -27%;
+  }
+
+  .form-control-input{
+    width: 100%
   }
 
 }
@@ -7463,7 +7626,18 @@ div.modal-body div {
     width: 46%;
     color: #fff;
     margin-left: 28%;
-    top: 8.9em;
+    top: 10.9em;
+    font-size: 36px;
+  }
+
+  .text2-section4 {
+    position: relative;
+    align-items: center;
+    text-align: center;
+    width: 40%;
+    color: #fff;
+    margin-left: 31%;
+    top: 14.9em;
     font-size: 36px;
   }
 
@@ -7475,5 +7649,29 @@ div.modal-body div {
     margin-left: 6%;
     width: 34%;
   }
+  .position-modal{
+    width: 46% !important;
+    margin-top: -8%;
+    margin-left: 15%;
+  }
 
+  .listo-modal{
+    float: right;
+    margin-right: -38%;
+    margin-top: -27%;
+  }
+
+  .form-control-input{
+    width: 100%
+  }
+
+}
+
+.footer-space{
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.link-footer{
+  color:#000;
 }

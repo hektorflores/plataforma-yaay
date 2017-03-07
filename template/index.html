@@ -5,7 +5,7 @@
       <title></title>
       <!-- Latest compiled and minified CSS -->
       <link rel="stylesheet" href="style.css">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="fonts.css">
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
       <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
       <script type="text/javascript" src="scripts/send_email.js"></script>
@@ -48,32 +48,30 @@
                   </div>
                   <div class="modal-luz"></div>
                   <div class="modal-body">
-                     <div>
+                     <div class="modal-description fields">
                         <h4>¿Desde dónde?</h4>
-                        <label><input id="from-zip" maxlength="5" type="text" placeholder="Ingrese código postal"/></label>
-                     </div>
-                     <div>
+                        <label><input id="from-zip" maxlength="5" type="text" placeholder="Ingrese CP" class="form-control" required/></label>
                         <h4>¿Hacia dónde?</h4>
-                        <label><input id="to-zip" maxlength="5" type="text" placeholder="Ingrese código postal"/></label>
+                        <label><input id="to-zip" maxlength="5" type="text" placeholder="Ingrese CP" class="form-control" required/></label>
                      </div>
-                     <div>
+                     <div class="modal-description fields">
                         <label>
-                           <select id="send-kind">
+                           <select id="send-kind" class="form-control listo-modal">
                               <option value="">¿Qué envías?</option>
                               <option value="Documento">Documento</option>
                               <option value="Paquete">Paquete</option>
                            </select>
                         </label>
                      </div>
-                     <div class="modal-description">
+                     <div class="modal-description fields position-modal">
                         <h4>Largo(cm)</h4>
-                        <label><input id="long-description" type="text"/></label>
+                        <label><input id="long-description" type="text" class="form-control" required/></label>
                         <h4>Ancho(cm)</h4>
-                        <label><input id="width-description"type="text"/></label>
+                        <label><input id="width-description"type="text" class="form-control" required/></label>
                         <h4>Alto(cm)</h4>
-                        <label><input id="high-description" type="text"/></label>
+                        <label><input id="high-description" type="text" class="form-control" required/></label>
                         <h4>Peso(kg)</h4>
-                        <label><input id="weight-description" type="text"/></label>
+                        <label><input id="weight-description" type="text" class="form-control" required/></label>
                      </div>
                   </div>
                   <div class="modal-footer">
@@ -84,7 +82,7 @@
          </div>
       </div>
       <div class="darkbar">
-         <h1 id="info-bar" class="info">Vendes en linea? Envia a través de Yaay Mas información.</h1>
+         <h1 id="info-bar" class="info">¿Vendes en linea? Envia a través de Yaay Mas información.</h1>
       </div>
       <div class="bs-example" data-example-id="thumbnails-with-custom-content">
          <div class="row section2">
@@ -105,45 +103,42 @@
       <div class="section-info" data-example-id="thumbnails-with-custom-content">
          <div class="row">
             <div class="col-sm-6 col-md-4">
-               <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-               <h3 class="label-section3">1.Completa el formulario</h3>
+               <h3 class="label-section3"><i class="fa fa-pencil-square-o" aria-hidden="true"></i> 1.Completa el formulario</h3>
             </div>
             <div class="col-sm-6 col-md-4">
-               <i class="fa fa-envelope" aria-hidden="true"></i>
-               <h3 class="label-section3">2.Recibe nuestras ofertas en tu correo</h3>
+               <h3 class="label-section3"><i class="fa fa-envelope" aria-hidden="true"></i> 2.Recibe nuestras ofertas en tu correo</h3>
             </div>
             <div class="col-sm-6 col-md-4">
-               <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
-               <h3 class="label-section3">3.Paga e imprime tu guia</h3>
+               <h3 class="label-section3"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> 3.Paga e imprime tu guia</h3>
             </div>
             <div class="col-sm-6 col-md-4">
-               <i class="fa fa-map-marker" aria-hidden="true"></i>
-               <h3 class="label-section3">4.Programa tu recoleccion</h3>
+               <h3 class="label-section3"><i class="fa fa-map-marker" aria-hidden="true"></i> 4.Programa tu recoleccion</h3>
             </div>
          </div>
       </div>
       <div>
          <h1 class="m-text-section4">Yaay es una plaraforma confiable y segura </h1>
          <h1 class="text-section4">Yaay es una plaraforma confiable y segura que te permite personalizar tus envios y elegir el que  se adapte mejor a ti</h1>
+         <h1 class="text2-section4">Además a través de Yaay puedes dar seguimiento a tus comprasy recibir increibles recompensas por cada envío</h1>
          <img class="image2" src="./images/Image-home-2.jpg" />
          <img class="logo2" src="./images/Logo-white.png" />
       </div>
-      <div>
+      <div style="margin-bottom: 1%" class='form-control-position'>
          <div class="row">
             <div class="col-sm-6 col-md-4 fields">
                <p><span>Nombre de la empresa o proyecto:</span></p>
-               <input type="text" class="form-control">
+               <input type="text" class="form-control form-control-input">
                <p><span>Correo electónico de contacto:</span></p>
-               <input type="text" class="form-control">
-               <p><span>Cómo conocio Yaay?</span></p>
-               <input type="text" class="form-control">
+               <input type="text" class="form-control form-control-input">
+               <p><span>¿Cómo conocio Yaay?</span></p>
+               <input type="text" class="form-control form-control-input">
             </div>
             <div class="col-sm-6 col-md-4 fields">
                <p><span>Teléfono móvil ( Whatsapp ):</span></p>
-               <input type="text" class="form-control">
+               <input type="text" class="form-control form-control-input">
                <p><span>Sitio web de la empresa:</span></p>
-               <input type="text" class="form-control">
-               <p><input type="checkbox" class="form-control" /><span>Acepto los términos de servicio</span></p>
+               <input type="text" class="form-control form-control-input">
+               <p><input type="checkbox"/><span>Acepto los términos de servicio</span></p>
             </div>
          </div>
       </div>
@@ -163,40 +158,67 @@
       </div>
       <footer class="main-footer">
          <div class="row">
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 footer-space">
                <a href="#"><img class="ico-footer" src="images/icono.png"></a>
             </div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 footer-space">
                <p>
                   <b>Acerca de</b>
                </p>
                <p>
-               <p><span><a>Documentación</a></span></p>
-               <p><span><a>Preguntas Frecuentes</a></span></p>
-               <p><span><a>Programde de recompensas</a></span></p>
+               <p><span><a class="link-footer">Documentación</a></span></p>
+               <p><span><a class="link-footer">Preguntas Frecuentes</a></span></p>
+               <p><span><a class="link-footer">Programde de recompensas</a></span></p>
                </p>
             </div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 footer-space">
                <p>
                   <b>Legal</b>
                </p>
                <p>
-               <p><span><a>Nuestras Politicas</a></span></p>
-               <p><span><a>Aviso de privacidad</a></span></p>
-               <p><span><a>Términos y condiciones</a></span></p>
+               <p><span><a class="link-footer">Nuestras Politicas</a></span></p>
+               <p><span><a class="link-footer">Aviso de privacidad</a></span></p>
+               <p><span><a class="link-footer">Términos y condiciones</a></span></p>
                </p>
             </div>
-            <div class="col-sm-6 col-md-4">
+            <div class="col-sm-6 col-md-4 footer-space">
+               <p>
+                  <b>Nosotros</b>
+               </p>
+               <p>
+               <p><span><a class="link-footer">Nuestras Politicas</a></span></p>
+               <p><span><a class="link-footer">Aviso de privacidad</a></span></p>
+               <p><span><a class="link-footer">Términos y condiciones</a></span></p>
+               </p>
+            </div>
+            <div class="col-sm-6 col-md-4 footer-space">
                <p>
                   <b>Contacto</b>
                </p>
                <p>
-               <p><span><a>Facebook</a></span></p>
-               <p><span><a>Twitter@soporteyaay</a></span></p>
-               <p><span><a>contacto@yaaymexico.com</a></span></p>
+               <p><span><a class="link-footer">Facebook</a></span></p>
+               <p><span><a class="link-footer">Twitter@soporteyaay</a></span></p>
+               <p><span><a class="link-footer">contacto@yaaymexico.com</a></span></p>
                </p>
             </div>
          </div>
       </footer>
+      <script>
+      function validateForm() {
+          var field1 = document.getElementById("from-zip").value;
+          var field2 = document.getElementById("to-zip").value;
+          var field3 = document.getElementById("long-description").value;
+          var field4 = document.getElementById("width-description").value;
+          var field5 = document.getElementById("high-description").value;
+          var field6 = document.getElementById("weight-description").value;
+
+          if ( field1 == "") {document.getElementById("error").innerHTML =("Ingrese el dato requerido, porfavor") return false; }
+          if ( field2 == "") {document.getElementById("error").innerHTML =("Ingrese el dato requerido, porfavor") return false; }
+          if ( field3 == "") {document.getElementById("error").innerHTML =("Ingrese el dato requerido, porfavor") return false; }
+          if ( field4 == "") {document.getElementById("error").innerHTML =("Ingrese el dato requerido, porfavor") return false; }
+          if ( field5 == "") {document.getElementById("error").innerHTML =("Ingrese el dato requerido, porfavor") return false; }
+          if ( field6 == "") {document.getElementById("error").innerHTML =("Ingrese el dato requerido, porfavor") return false; }
+      }
+      </script>
    </body>
 </html>
