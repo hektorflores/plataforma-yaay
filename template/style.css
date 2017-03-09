@@ -6983,7 +6983,7 @@ div.modal-body div {
       position: relative;
       align-items: center;
       text-align: center;
-      width: 85%;
+      width: 78%;
       color: #fff;
       margin-left: 11%;
       top: 1.5em;
@@ -7007,7 +7007,7 @@ div.modal-body div {
     text-align: center;
     /*width: 24%;*/
     color: #fff;
-    margin-left: 38%;
+    margin-left: 40%;
     top: 2.9em;
     font-size: 16px;
   }
@@ -7207,7 +7207,7 @@ div.modal-body div {
     position: relative;
     align-items: center;
     text-align: center;
-    width: 85%;
+    width: 78%;
     color: #fff;
     margin-left: 11%;
     top: 2.9em;
@@ -7303,6 +7303,7 @@ div.modal-body div {
   .step1{
     float: right;
     color: #FCCA36;
+    width: 73%;
   }
 
   .step2{
@@ -7314,12 +7315,13 @@ div.modal-body div {
   .step3{
     float: right;
     color: #FCCA36;
+    width: 73%;
   }
 
   .step4{
     float: right;
     color: #FCCA36;
-    width: 72%;
+    width: 73%;
   }
 
   .step-info1{
@@ -7444,7 +7446,7 @@ div.modal-body div {
     text-align: center;
     /*width: 18%;*/
     color: #fff;
-    margin-left: 40%;
+    margin-left: 45%;
     top: 4.9em;
     font-size: 17px;
   }
@@ -7496,7 +7498,7 @@ div.modal-body div {
       margin-bottom: 1%;
       margin-left: -1%;
   }
-  
+
   .form-control-input{
     width: 16%;
   }
@@ -8140,7 +8142,7 @@ div.modal-body div {
   .step4{
     float: right;
     color: #FCCA36;
-    width: 82%;
+    width: 79%;
   }
 
   .step-info1{
