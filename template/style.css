@@ -58,9 +58,9 @@ header nav {
 
 .ico-footer{
   display: inline-block;
-  width: 8em;
+  width: 7em;
   margin-top: 4%;
-  margin-left: 17%;
+  margin-left: -19%;
 }
 
 .logo{
@@ -2630,7 +2630,7 @@ output {
 }
 .form-control {
   display: block;
-  width: auto;
+  width: 74%;
   height: 34px;
   padding: 6px 12px;
   font-size: 14px;
@@ -3139,7 +3139,7 @@ fieldset[disabled] a.btn {
 }
 .btn-default {
   color: #fff;
-  background-color: #337ab7;
+  background-color: #67C1A1;
 }
 .btn-default:focus,
 .btn-default.focus {
@@ -3195,8 +3195,8 @@ fieldset[disabled] .btn-default.focus {
 }
 .btn-primary {
   color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  background-color: #67C1A1;
+  border-color: #67C1A1;
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -6107,9 +6107,10 @@ div.modal-description label{
   }
 }
 div.modal-body div {
-  width: 76%;
-  margin-bottom: 1em;
+  width: 70%;
+  margin-top: 0em;
 }
+
 
 .tooltip {
   position: absolute;
@@ -6938,7 +6939,7 @@ div.modal-body div {
 }
 .image2{
   vertical-align: middle;
-  margin-top: -63px;
+  margin-top: -171px;
 }
 
 .logo2{
@@ -6947,11 +6948,12 @@ div.modal-body div {
     margin-top: -16em;
 }
 
-@media (min-width: 320px) and (max-width: 374px){
-  .logo2{
-      width: 56px;
-      margin-left: 9.5em;
-      margin-top: -15.5em;
+@media (max-width: 374px) and (min-width: 320px){
+  .logo2 {
+      position: relative;
+      width: 14%;
+      top: 9.5em;
+      margin-left: 39%;
   }
   #info-bar {
       width: auto;
@@ -6995,7 +6997,7 @@ div.modal-body div {
     width: 85%;
     color: #fff;
     margin-left: 8%;
-    top: 2.5em;
+    top: 1.5em;
     font-size: 20px;
   }
 
@@ -7029,7 +7031,7 @@ div.modal-body div {
 
   .label-section3{
     margin-left: -53%;
-    width: 148%;
+    /* width: 148%; */
     font-size: 20px;
   }
 
@@ -7050,12 +7052,128 @@ div.modal-body div {
   .form-control-input{
     width: 100%
   }
-  .form-control-position{
-    margin-left: -36%;
+  .x-form-control-position{
+    margin-bottom: 10%;
   }
+
+  .m-search{
+    width: auto;
+    float: right;
+    margin-top: -13%
+  }
+
+  .m-field-search{
+    width: 69%;
+  }
+
+  .m-form-search{
+    background-color: #fff;
+    margin-top: 10%;
+  }
+
+  .step1{
+    float: left;
+    color: #FCCA36;
+    margin-left: 16%;
+    width: 80%;
+  }
+
+  .step2{
+    float: left;
+    color: #FCCA36;
+    margin-left: 17%;
+    -webkit-max-logical-width: 82%;
+  }
+
+  .step3{
+    float: left;
+    color: #FCCA36;
+    margin-left: 16%;
+    width: 80%;
+  }
+
+  .step4{
+    float: left;
+    color: #FCCA36;
+    width: 88%;
+    margin-left: 16%;
+  }
+
+  .step-info1{
+    margin-left: 20%;
+    font-size: 1.1em;
+  }
+
+  .step-info2{
+    margin-top: 8%;
+    margin-left: 20%;
+    font-size: 1.1em;
+  }
+
+  .step-info3{
+    margin-left: 20%;
+    font-size: 1.1em;
+  }
+
+  .step-info4{
+    margin-left: 20%;
+    font-size: 1.1em;
+  }
+
+  .ico-info{
+    width: auto;
+    margin-left: -73%;
+  }
+
+  .ico1{
+  margin-left: 48%;
+  }
+
+  .ico2{margin-left: 47%;}
+
+  .ico3{margin-left: 45%;}
+
+  .ico4{
+    margin-left: 51%;
+  }
+
+  div.modal-body div {
+      width: 94%;
+      margin-bottom: -1em;
+  }
+
+  .form-control-input {
+    width: 16%;
+  }
+
+  .listo-modal {
+      width: 26%;
+  }
+
+  .navbar-default {
+      background-color: #fff;
+      border-bottom: 1px solid #e7e7e7;
+  }
+
+  footer div.row1{
+    margin-left: 32%;
+  }
+
+  footer div ul li{
+    margin-bottom: 1em;
+  }
+  footer div ul li ul li{
+    margin-bottom: 0em;
+  }
+
+  .image2 {
+      vertical-align: middle;
+      margin-top: -90px;
+  }
+
 }
 
-@media (min-width: 375px)and (max-width: 424px){
+@media (min-width: 375px) and (max-width: 424px){
   .logo2 {
       width: 61px;
       margin-left: 11em;
@@ -7141,8 +7259,8 @@ div.modal-body div {
   }
 
   .label-section3{
-    margin-left: -53%;
-    width: 148%;
+    /* margin-left: -81%; */
+    width: auto;
     font-size: 20px;
   }
 
@@ -7167,14 +7285,113 @@ div.modal-body div {
     margin-left: -36%;
   }
 
+  .m-search{
+    width: auto;
+    float: right;
+    margin-top: -11.5%;
+  }
+
+  .m-field-search {
+      width: 76%;
+  }
+
+  .m-form-search{
+    background-color: #fff;
+    margin-top: 10%;
+  }
+
+  .step1{
+    float: right;
+    color: #FCCA36;
+  }
+
+  .step2{
+    float: right;
+    color: #FCCA36;
+    width: 73%;
+  }
+
+  .step3{
+    float: right;
+    color: #FCCA36;
+  }
+
+  .step4{
+    float: right;
+    color: #FCCA36;
+    width: 72%;
+  }
+
+  .step-info1{
+    margin-left: 28%;
+    font-size: 1.1em;
+  }
+
+  .step-info2{
+    margin-top: 8%;
+    margin-left: 28%;
+    font-size: 1.1em;
+  }
+
+  .step-info3{
+    margin-left: 28%;
+    font-size: 1.1em;
+  }
+
+  .step-info4{
+    margin-left: 28%;
+    font-size: 1.1em;
+  }
+
+  .ico-info{
+    width: auto;
+    margin-left: -73%;
+  }
+
+  .data-fields {
+      margin-left: -8%;
+      width: 110% !important;
+  }
+
+  div.modal-body div {
+      width: 94%;
+      margin-bottom: -1em;
+  }
+
+  .form-control-input {
+    width: 16%;
+  }
+
+  .listo-modal {
+      width: 26%;
+  }
+
+  .navbar-default {
+      background-color: #fff;
+      border-bottom: 1px solid #e7e7e7;
+  }
+
+  footer div.row1{
+    margin-left: 32%;
+  }
+
+  footer div ul li{
+    margin-bottom: 1em;
+  }
+  footer div ul li ul li{
+    margin-bottom: 0em;
+  }
+
 }
 
 @media (min-width: 425px)and (max-width: 767px){
   .logo2 {
-      width: 61px;
-      margin-left: 13em;
-      margin-top: -20em;
+    position: relative;
+    width: 10%;
+    top: 9.5em;
+    margin-left: 42%;
   }
+
   #info-bar {
       width: auto;
       padding: 0.5em;
@@ -7195,7 +7412,7 @@ div.modal-body div {
   }
 
   .row {
-        margin-left: 148px;
+        margin-left: 86px;
         /* margin-right: -15px; */
     }
 
@@ -7205,7 +7422,7 @@ div.modal-body div {
     text-align: center;
     width: 85%;
     color: #fff;
-    margin-left: 11%;
+    margin-left: 6%;
     top: 2.9em;
     font-size: 20px;
   }
@@ -7227,7 +7444,7 @@ div.modal-body div {
     text-align: center;
     /*width: 18%;*/
     color: #fff;
-    margin-left: 45%;
+    margin-left: 40%;
     top: 4.9em;
     font-size: 17px;
   }
@@ -7247,17 +7464,22 @@ div.modal-body div {
 
   .image2 {
       vertical-align: middle;
-      margin-top: -64px;
+      margin-top: -84px;
   }
 
   div.modal-body div {
-      width: 65%;
-      margin-bottom: 1em;
+      width: 94%;
+      margin-bottom: -1em;
+  }
+
+  .data-fields{
+    margin-left: 0%;
+    width: 95% !important;
   }
 
   .label-section3{
-    margin-left: -45%;
-    width: 148%;
+    /* margin-left: -40%; */
+    /* width: 123%; */
     font-size: 20px;
   }
 
@@ -7276,19 +7498,131 @@ div.modal-body div {
   }
   
   .form-control-input{
-    width: 100%
+    width: 16%;
   }
-  .form-control-position{
-    margin-left: -36%;
+  .listo-modal{
+    width: 26%;
   }
+  .x-form-control-position{
+    margin-bottom: 7%;
+  }
+
+  .m-search{
+    width: auto;
+    float: right;
+    margin-top: -10.1%;
+  }
+
+  .m-field-search{
+    width: 79%;
+  }
+
+  .m-form-search{
+    background-color: #fff;
+    margin-top: 10%;
+  }
+
+  .step1{
+    color: #FCCA36;
+    /* float: left; */
+  }
+
+  .step2{
+    /* float: right; */
+    color: #FCCA36;
+    width: auto;
+  }
+
+  .step3{
+    /* float: right; */
+    color: #FCCA36;
+  }
+
+  .step4{
+    color: #FCCA36;
+    width: auto;
+  }
+
+  .step-info1{
+    /* margin-left: -32%; */
+    font-size: 1.1em;
+    position: relative;
+    /* margin-top: 25%; */
+  }
+
+  .step-info2{
+    /* margin-top: 31%; */
+    /* margin-left: -33%; */
+    font-size: 1.1em;
+  }
+
+  .step-info3{
+    /* margin-left: -31%; */
+    font-size: 1.1em;
+    /* margin-top: 6%; */
+  }
+
+  .step-info4{
+    /* margin-left: -30%; */
+    font-size: 1.1em;
+    /* margin-top: 7%; */
+  }
+
+  .ico-info{
+    width: auto;
+    margin-left: -8%;
+  }
+
+  .ico1{
+  margin-left: 37%;
+  }
+
+  .ico2{margin-left: 37%;}
+
+  .ico3{
+    margin-left: 37%;
+  }
+
+  .ico4{
+  margin-left: 39.5%;
+
+  }
+
+  .navbar-default {
+      background-color: #fff;
+      border-bottom: 1px solid #e7e7e7;
+  }
+
+  footer div.row1{
+    margin-left: 32%;
+  }
+
+  footer div ul li{
+    margin-bottom: 1em;
+  }
+  footer div ul li ul li{
+    margin-bottom: 0em;
+  }
+  /*footer div ul.links{
+    display: inline-flex;
+    list-style: none;
+  }
+
+
+  .address-footer{
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 100%;
+  }*/
 
 }
 
 @media (min-width: 768px) and (max-width: 1023px){
   .logo2 {
-    width: 61px;
-    margin-left: 25em;
-    margin-top: -38em;
+    position: relative;
+    width: 10%;
+    top: 12.5em;
+    margin-left: 42%;
   }
   #info-bar {
       width: auto;
@@ -7330,7 +7664,7 @@ div.modal-body div {
     width: 89%;
     color: #fff;
     margin-left: 6%;
-    top: 9.9em;
+    top: 6.9em;
     font-size: 20px;
   }
 
@@ -7368,7 +7702,7 @@ div.modal-body div {
 
   .label-section3{
     margin-left: -16%;
-    width: 116%;
+    width: 76%;
     font-size: 20px;
   }
 
@@ -7380,16 +7714,121 @@ div.modal-body div {
   }
 
   .form-control-input{
-    width: 100%
+    width: 20%;
+  }
+  .footer-space{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 30%;
+    margin-left: -10%;
+    font-size: 9px;
+  }
+
+  .step1{
+    float: right;
+    color: #FCCA36;
+  }
+
+  .step2{
+    float: right;
+    color: #FCCA36;
+    width: 79%;
+  }
+
+  .step3{
+    float: right;
+    color: #FCCA36;
+  }
+
+  .step4{
+    float: right;
+    color: #FCCA36;
+    width: 82%;
+  }
+
+  .step-info1{
+    margin-left: 25%;
+    font-size: 1.1em;
+  }
+
+  .step-info2{
+    margin-top: 8%;
+    margin-left: 20%;
+    font-size: 1.1em;
+  }
+
+  .step-info3{
+    margin-left: 24%;
+    font-size: 1.1em;
+  }
+
+  .step-info4{
+    margin-left: 19%;
+    font-size: 1.1em;
+  }
+
+  .ico-info{
+    width: 58%;
+    margin-left: -8%;
+  }
+
+  .ico1{
+    margin-left: 7%;
+  }
+
+  .ico2{margin-left: 4%;}
+
+  .ico3{margin-left: 7%;}
+
+  .ico4{
+    margin-left: 7%;
+  }
+
+  .x-form-control-position{
+    margin-bottom: 28%;
+  }
+
+  .position-modal {
+      width: 46% !important;
+      margin-top: -8%;
+      margin-left: 40%;
+  }
+
+  footer div.row1{
+    margin-left: -2%;
+  }
+  footer div ul.links{
+    display: inline-flex;
+    list-style: none;
+  }
+  footer div ul li{
+    margin-right: 1em;
+  }
+
+  .address-footer{
+    margin-top: 4%;
+    margin-left: 8%;
+    width: 100%;
+  }
+
+  .measures{
+    margin-left: 21%;
+    width: 62% !important;
+  }
+
+  .listo-modal{
+    margin-left: -37%;
+    width: 37%;
   }
 
 }
 
 @media (min-width: 1024px) and (max-width: 1139px){
   .logo2 {
-    width: 61px;
-    margin-left: 33em;
-    margin-top: -51em;
+    position: relative;
+    width: 10%;
+    top: 12.5em;
+    margin-left: 42%;
   }
   .darkbar{
     top: 10px;
@@ -7414,7 +7853,7 @@ div.modal-body div {
     width: 97%;
     color: #fff;
     margin-left: 2%;
-    top: 7.9em;
+    top: 4.9em;
     font-size: 27px;
   }
 
@@ -7425,7 +7864,7 @@ div.modal-body div {
     width: 58%;
     color: #fff;
     margin-left: 21%;
-    top: 8.9em;
+    top: 5.9em;
     font-size: 27px;
   }
 
@@ -7447,7 +7886,7 @@ div.modal-body div {
 
   .image2 {
       vertical-align: middle;
-      margin-top: -108px;
+      margin-top: -214px;
   }
 
   .fields{
@@ -7458,31 +7897,141 @@ div.modal-body div {
   .position-modal{
     width: 46% !important;
     margin-top: -8%;
-    margin-left: 15%;
+    margin-left: 38%;
   }
 
   .listo-modal{
-    float: right;
-    margin-right: -38%;
-    margin-top: -27%;
+    margin-left: -37%;
+    width: 37%;
   }
 
-  .form-control-input{
+  .label-section3{
+    float: right
+  }
+
+  .ico-info{
+    width: 29%;
+  }
+
+  .form-contact-input{
     width: 100%
+  }
+
+  .footer-space{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 19%;
+  }
+
+  .step1{
+    float: right;
+    color: #FCCA36;
+  }
+
+  .step2{
+    float: right;
+    color: #FCCA36;
+    width: 79%;
+  }
+
+  .step3{
+    float: right;
+    color: #FCCA36;
+  }
+
+  .step4{
+    float: right;
+    color: #FCCA36;
+    width: 82%;
+  }
+
+  .step-info1{
+    margin-left: 28%;
+    font-size: 1.2em;
+  }
+
+  .step-info2{
+    margin-top: 8%;
+    margin-left: 22%;
+    font-size: 1.2em;
+  }
+
+  .step-info3{
+    margin-left: 28%;
+    font-size: 1.2em;
+  }
+
+  .step-info4{
+    margin-left: 22%;
+    font-size: 1.2em;
+  }
+
+  .ico-info{
+    width: 48%;
+    margin-left: -2%;
+  }
+
+  .ico1{
+    margin-left: 11%;
+    font-size: 3em !important;
+  }
+
+  .ico2{margin-left: 3%;}
+
+  .ico3{margin-left: 10%;}
+
+  .ico4{
+    margin-left: 8%;
+  }
+
+  .form-control-input {
+      width: 13%;
+  }
+
+    .position-modal {
+        width: 46% !important;
+        margin-top: -8%;
+        margin-left: 38%;
+    }
+
+  .x-form-control-position{
+    margin-bottom: 22%;
+  }
+
+  footer div.row1{
+    margin-left: 14%;
+  }
+  footer div ul.links{
+    display: inline-flex;
+    list-style: none;
+  }
+  footer div ul li{
+    margin-right: 1em;
+  }
+
+  .address-footer{
+    margin-top: -32%;
+    margin-left: 22%;
+  }
+
+  .measures{
+    margin-left: 21%;
+    width: 62% !important;
   }
 
 }
 
-@media (min-width: 1140px) and (max-width: 2559px){
+@media (max-width: 2559px) and (min-width: 1140px){
   .logo2 {
-    width: 115px;
-    margin-left: 49em;
-    margin-top: -75em;
+    position: relative;
+    width: 10%;
+    top: 15.5em;
+    margin-left: 46%;
   }
 
   .image2 {
       vertical-align: middle;
-      margin-top: -108px;
+      margin-top: -215px;
   }
 
   .darkbar{
@@ -7505,10 +8054,10 @@ div.modal-body div {
     position: relative;
     align-items: center;
     text-align: center;
-    width: 97%;
+    width: 64%;
     color: #fff;
-    margin-left: 2%;
-    top: 10.9em;
+    margin-left: 20%;
+    top: 8.9em;
     font-size: 27px;
   }
 
@@ -7516,10 +8065,10 @@ div.modal-body div {
     position: relative;
     align-items: center;
     text-align: center;
-    width: 58%;
+    width: 48%;
     color: #fff;
-    margin-left: 21%;
-    top: 12.9em;
+    margin-left: 27%;
+    top: 9.9em;
     font-size: 27px;
   }
 
@@ -7529,7 +8078,7 @@ div.modal-body div {
     text-align: center;
     /*width: 9%;*/
     color: #fff;
-    margin-left: 46.5%;
+    margin-left: 48%;
     top: 14.9em;
     font-size: 20px;
   }
@@ -7550,19 +8099,120 @@ div.modal-body div {
   }
 
   .position-modal{
-    width: 46% !important;
-    margin-top: -8%;
-    margin-left: 15%;
+    width: 48% !important;
+    margin-top: -3%;
+    margin-left: 38%;
   }
 
   .listo-modal{
-    float: right;
-    margin-right: -38%;
-    margin-top: -27%;
+    margin-left: -37%;
+    width: 37%;
   }
 
-  .form-control-input{
+  .form-contact-input{
     width: 100%
+  }
+
+  .footer-space{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 18%;
+  }
+
+  .step1{
+    float: right;
+    color: #FCCA36;
+    margin-right: 12%;
+  }
+
+  .step2{
+    float: right;
+    color: #FCCA36;
+    width: 79%;
+  }
+
+  .step3{
+    float: right;
+    color: #FCCA36;
+    margin-right: 12%;
+  }
+
+  .step4{
+    float: right;
+    color: #FCCA36;
+    width: 82%;
+  }
+
+  .step-info1{
+    margin-left: 27%;
+    font-size: 1.2em;
+    text-align-last: left;
+    width: 90%;
+  }
+
+  .step-info2{
+    margin-top: 8%;
+    margin-left: 22%;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .step-info3{
+    margin-left: 28%;
+    font-size: 1.2em;
+    width: 94%;
+  }
+
+  .step-info4{
+    margin-left: 22%;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .ico-info{
+    width: 35%;
+    margin-left: 6%;
+  }
+
+  .ico1{
+    margin-left: 7%;
+  }
+  .ico2{
+
+  }
+  .ico3{margin-left: 0.6em;}
+  .ico4{
+    margin-left: 7%;
+  }
+
+  .form-control-input {
+      width: 13%;
+  }
+
+  .x-form-control-position{
+    margin-bottom: 18%;
+  }
+
+  footer div.row1{
+    margin-left: 7%;
+    width: auto;
+  }
+  footer div ul.links{
+    display: inline-flex;
+    list-style: none;
+  }
+  footer div ul li{
+    margin-right: 3em;
+  }
+
+  .address-footer{
+    margin-top: -32%;
+    margin-left: 22%;
+  }
+
+  .measures{
+    margin-left: 21%;
+    width: 62% !important;
   }
 
 }
@@ -7581,14 +8231,15 @@ div.modal-body div {
 @media (min-width: 2560px){
 
   .logo2 {
-    width: 149px;
-    margin-left: 90em;
-    margin-top: -118em;
+    position: relative;
+    width: 10%;
+    top: 18.5em;
+    margin-left: 45%;
   }
 
   .image2 {
       vertical-align: middle;
-      margin-top: -183px;
+      margin-top: -232px;
   }
 
   .darkbar{
@@ -7650,28 +8301,136 @@ div.modal-body div {
     width: 34%;
   }
   .position-modal{
-    width: 46% !important;
-    margin-top: -8%;
-    margin-left: 15%;
+    width: 48% !important;
+    margin-top: -3%;
+    margin-left: 38%;
   }
 
   .listo-modal{
-    float: right;
-    margin-right: -38%;
-    margin-top: -27%;
+    margin-left: -37%;
+    width: 37%;
   }
 
-  .form-control-input{
+  .form-contact-input{
     width: 100%
   }
 
-}
+  .footer-space{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 18%;
+  }
 
-.footer-space{
-  margin-top: 1%;
-  margin-bottom: 1%;
+  .x-form-control-position{
+    margin-bottom: 10%;
+  }
+
+  footer div.row1{
+    margin-left: 31%;
+  }
+  footer div ul.links{
+    display: inline-flex;
+    list-style: none;
+  }
+  footer div ul li{
+    margin-right: 5em;
+  }
+
+  .address-footer{
+    margin-top: -32%;
+    margin-left: 22%;
+  }
+
+  .rowsteps{
+    margin-left: 26em;
+  }
+
+  .step1{
+    float: right;
+    color: #FCCA36;
+    margin-right: 45%;
+  }
+
+  .step2{
+    float: right;
+    color: #FCCA36;
+    width: 88%;
+  }
+
+  .step3{
+    float: right;
+    color: #FCCA36;
+    margin-right: 44%;
+  }
+
+  .step4{
+    float: right;
+    color: #FCCA36;
+    width: 82%;
+    margin-right: 5%;
+  }
+
+  .step-info1{
+    margin-left: 18%;
+    font-size: 1.2em;
+    text-align-last: left;
+    width: 90%;
+  }
+
+  .step-info2{
+    /* margin-top: 8%; */
+    margin-left: 13%;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .step-info3{
+    margin-left: 19%;
+    font-size: 1.2em;
+    width: 94%;
+  }
+
+  .step-info4{
+    margin-left: 13%;
+    font-size: 1.2em;
+    width: 100%;
+  }
+
+  .ico-info{
+    width: 35%;
+    margin-left: 6%;
+  }
+
+  .ico1{
+    margin-left: 7%;
+  }
+  .ico2{
+
+  }
+  .ico3{margin-left: 1.3em;}
+  .ico4{
+    margin-left: 2%;
+  }
+  .measures{
+    margin-left: 21%;
+    width: 62% !important;
+  }
+
+  .form-control-input {
+      width: 13%;
+  }
+
 }
 
 .link-footer{
   color:#000;
+}
+
+.icons{
+  font-size: 4em !important;
+  color: #FCCA36;
+}
+
+li{
+  list-style: none;
 }
