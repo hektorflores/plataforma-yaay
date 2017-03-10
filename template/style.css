@@ -7351,7 +7351,7 @@ div.modal-body div {
   }
 
   .data-fields {
-      margin-left: -8%;
+      margin-left: 0%;
       width: 110% !important;
   }
 
@@ -7486,11 +7486,11 @@ div.modal-body div {
   }
 
   .ico-footer {
-      display: inline-block;
+      /*display: inline-block;
       width: 8em;
-      margin-top: 11%;
-      margin-left: -10%;
-      margin-bottom: 7%;
+      margin-top: 11%;*/
+      margin-left: 0%;
+      /*margin-bottom: 7%;*/
   }
 
   .footer-space {
@@ -8213,8 +8213,8 @@ div.modal-body div {
   }
 
   .measures{
-    margin-left: 21%;
-    width: 62% !important;
+    margin-left: 25%;
+    width: 60% !important;
   }
 
 }
