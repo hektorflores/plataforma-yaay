@@ -76,6 +76,14 @@ header nav {
     margin-top: -92.9px;
 }
 
+.section-info h2{
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  padding-left: 20%;
+  padding-right: 15%;
+}
+
 .info-promos{
     width: auto;
     padding: 12.5em;
@@ -4253,6 +4261,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 @media (min-width: 768px) {
   .navbar-header {
     float: left;
+    height: 94px;
   }
 }
 .navbar-collapse {
@@ -6001,12 +6010,11 @@ button.close {
   background-color: #67C1A0
 }
 .modal-luz {
-   margin-right: -50%;
   width: 0;
-   height: 0;
-   border-top: 40px solid #67C1A0;
-   border-left: 30px solid transparent;
-   border-right: 30px solid transparent;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 40px solid #67C1A0;
 }
 
 .modal-header .close {
@@ -6018,11 +6026,11 @@ button.close {
   font-family: inherit;
   color: #fff;
   text-align: center;
+  font-size: 25px;
+  font-weight: 400;
 }
 .modal-body {
-  width: 100%;
-  padding: 1em;
-  box-sizing: border-box;
+  margin: 0.5em 0;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
@@ -6031,34 +6039,33 @@ button.close {
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   -webkit-flex-flow: row wrap;
   -ms-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
+  padding: 0.5em;
+  box-sizing: border-box;
 }
 
 .modal-description {
-  width: 100%;
-  padding: 1em;
-  box-sizing: border-box;
+  width: 49%;
+  display: inline-block;
+  margin: 1.25em 0;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -ms-transition: all 0.3s ease;
   transition: all 0.3s ease;
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  -ms-flex-flow: row wrap;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -ms-flex-align: stretch;
-  align-items: stretch;
+  position: relative;
 }
 
 div.modal-description label{
@@ -6103,11 +6110,11 @@ div.modal-description label{
 }
 @media (min-width: 992px) {
   .modal-lg {
-    width: 900px;
+    width: 750px;
   }
 }
 div.modal-body div {
-  width: 70%;
+  width: 35%;
   margin-top: 0em;
 }
 
@@ -6920,7 +6927,7 @@ div.modal-body div {
 }
 .section-info {
     position: relative;
-    padding: 45px 15px 15px;
+    padding: 10px 15px 15px;
     /* margin: 0 -15px 15px; */
     border-color: #e5e5e5 #eee #eee;
     border-style: solid;
@@ -6949,6 +6956,12 @@ div.modal-body div {
 }
 
 @media (max-width: 374px) and (min-width: 320px){
+  .ico {
+    display: inline-block;
+    width: 4em;
+    margin-top: -7%;
+    margin-left: -24%;
+  }
   .logo2 {
       position: relative;
       width: 14%;
@@ -6962,6 +6975,15 @@ div.modal-body div {
       opacity: .7;
       margin-top: -0.9px;
       font-size: 19px;
+  }
+
+  .section-info h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
   }
 
   h1, .h1, h2, .h2, h3, .h3 {
@@ -7068,7 +7090,6 @@ div.modal-body div {
 
   .m-form-search{
     background-color: #fff;
-    margin-top: 10%;
   }
 
   .step1{
@@ -7102,27 +7123,32 @@ div.modal-body div {
   .step-info1{
     margin-left: 20%;
     font-size: 1.1em;
+    display: none;
   }
 
   .step-info2{
     margin-top: 8%;
     margin-left: 20%;
     font-size: 1.1em;
+    display: none;
   }
 
   .step-info3{
     margin-left: 20%;
     font-size: 1.1em;
+    display: none;
   }
 
   .step-info4{
     margin-left: 20%;
     font-size: 1.1em;
+    display: none;
   }
 
   .ico-info{
     width: auto;
     margin-left: -73%;
+    margin-bottom: 30%;
   }
 
   .ico1{
@@ -7174,6 +7200,12 @@ div.modal-body div {
 }
 
 @media (min-width: 375px) and (max-width: 424px){
+  .ico {
+    display: inline-block;
+    width: 3.5em;
+    margin-top: -7%;
+    margin-left: -24%;
+  }
   .logo2 {
       width: 61px;
       margin-left: 11em;
@@ -7186,6 +7218,15 @@ div.modal-body div {
       opacity: .7;
       margin-top: -0.9px;
       font-size: 19px;
+  }
+
+  .section-info h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
   }
 
   h1, .h1, h2, .h2, h3, .h3 {
@@ -7297,7 +7338,6 @@ div.modal-body div {
 
   .m-form-search{
     background-color: #fff;
-    margin-top: 10%;
   }
 
   .step1{
@@ -7387,6 +7427,13 @@ div.modal-body div {
 }
 
 @media (min-width: 425px)and (max-width: 767px){
+  .ico {
+    display: inline-block;
+    width: 3.5em;
+    margin-top: -7%;
+    margin-left: -24%;
+  }
+
   .logo2 {
     position: relative;
     width: 10%;
@@ -7401,6 +7448,15 @@ div.modal-body div {
       opacity: .7;
       margin-top: -0.9px;
       font-size: 19px;
+  }
+
+  .section-info h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
   }
 
   h1, .h1, h2, .h2, h3, .h3 {
@@ -7521,7 +7577,6 @@ div.modal-body div {
 
   .m-form-search{
     background-color: #fff;
-    margin-top: 10%;
   }
 
   .step1{
@@ -7634,6 +7689,15 @@ div.modal-body div {
       margin-top: -38.9px;
       font-size: 19px;
   }
+  .section-info h2{
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    padding-left: 15%;
+    padding-right: 10%;
+    padding-bottom: 5%
+  }
+
   h1, .h1, h2, .h2, h3, .h3 {
     margin-top: 20px;
     margin-bottom: 0px;
@@ -7750,23 +7814,23 @@ div.modal-body div {
 
   .step-info1{
     margin-left: 25%;
-    font-size: 1.1em;
+    font-size: 1.0em;
   }
 
   .step-info2{
     margin-top: 8%;
     margin-left: 20%;
-    font-size: 1.1em;
+    font-size: 1.0em;
   }
 
   .step-info3{
     margin-left: 24%;
-    font-size: 1.1em;
+    font-size: 1.0em;
   }
 
   .step-info4{
     margin-left: 19%;
-    font-size: 1.1em;
+    font-size: 1.0em;
   }
 
   .ico-info{
@@ -7776,14 +7840,22 @@ div.modal-body div {
 
   .ico1{
     margin-left: 7%;
+    margin-top: 5%;
   }
 
-  .ico2{margin-left: 4%;}
+  .ico2{
+    margin-left: 4%;
+    margin-top: 4%;
+  }
 
-  .ico3{margin-left: 7%;}
+  .ico3{
+    margin-left: 7%;
+    margin-top: 5%
+  }
 
   .ico4{
     margin-left: 7%;
+    margin-top: 5%
   }
 
   .x-form-control-position{
@@ -7990,11 +8062,24 @@ div.modal-body div {
       width: 13%;
   }
 
-    .position-modal {
-        width: 46% !important;
-        margin-top: -8%;
-        margin-left: 38%;
-    }
+  .position-modal {
+      width: 66% !important;
+      margin-top: -8%;
+      margin-left: 28%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+  }
+
+  div.modal-description.fields.measures.data-fields h3{
+    font-size: 1em;
+    color: #231F20;
+    padding: 0em 0em 0em 5em;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: auto;
+  }
 
   .x-form-control-position{
     margin-bottom: 22%;
@@ -8017,7 +8102,7 @@ div.modal-body div {
   }
 
   .measures{
-    margin-left: 21%;
+    margin-left: 29%;
     width: 62% !important;
   }
 
@@ -8101,14 +8186,27 @@ div.modal-body div {
   }
 
   .position-modal{
-    width: 48% !important;
+    width: 52% !important;
     margin-top: -3%;
-    margin-left: 38%;
+    margin-left: 36%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  div.modal-description.fields.measures.data-fields h3{
+    font-size: 1em;
+    color: #231F20;
+    padding: 0em 0em 0em 3em;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: auto;
   }
 
   .listo-modal{
-    margin-left: -37%;
-    width: 37%;
+    margin-left: -48%;
+    width: 54%;
   }
 
   .form-contact-input{
@@ -8178,13 +8276,19 @@ div.modal-body div {
 
   .ico1{
     margin-left: 7%;
+    margin-top : 4%;
   }
   .ico2{
-
+    margin-left: 4%;
+    margin-top : 4%;
   }
-  .ico3{margin-left: 0.6em;}
+  .ico3{
+    margin-left: 0.6em;
+    margin-top: 5%;
+  }
   .ico4{
     margin-left: 7%;
+    margin-top: 4%;
   }
 
   .form-control-input {
@@ -8213,7 +8317,7 @@ div.modal-body div {
   }
 
   .measures{
-    margin-left: 25%;
+    margin-left: 41%;
     width: 60% !important;
   }
 

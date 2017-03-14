@@ -14,7 +14,7 @@
       <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
    </head>
    <body>
-      <nav class="navbar navbar-default" style="height: 94px">
+      <nav class="navbar navbar-default">
          <div class="container-fluid">
             <div class="navbar-header">
                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2" aria-expanded="false">
@@ -44,26 +44,27 @@
                <div class="modal-content">
                   <div class="modal-header">
                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                     <h4 class="modal-title">Descubre la mejor oferta de envío</h4>
+                     <h4 class="modal-title">Descubre la mejor oferta para tu envío</h4>
                   </div>
-                  <div class="modal-luz"></div>
+                  <center><div class="modal-luz"></div></center>
                   <div class="modal-body">
                      <div class="modal-description fields">
                         <h4>¿Desde dónde?</h4>
                         <input id="from-zip" maxlength="5" type="text" placeholder="Ingresa código postal" class="form-control" required/>
+                     </div>
+                     <div class="modal-description fields">
                         <h4>¿Hacia dónde?</h4>
                         <input id="to-zip" maxlength="5" type="text" placeholder="Ingresa código postal" class="form-control" required/>
                      </div>
                      <div class="modal-description fields measures data-fields">
-                        <span>¿Qué envías?</span>
-                        <span>Largo</span>
-                        <span>Ancho</span>
-                        <span>Alto</span>
-                        <span>Peso</span>
+                        <h3>Largo</h3>
+                        <h3>Ancho</h3>
+                        <h3>Alto</h3>
+                        <h3>Peso</h3>
                      </div>
                      <div class="modal-description fields position-modal">
                         <select id="send-kind" class="form-control listo-modal">
-                           <option value="">Selecciona</option>
+                           <option value="">Qué envías</option>
                            <option value="Documento">Documento</option>
                            <option value="Paquete">Paquete</option>
                         </select>
@@ -100,6 +101,7 @@
          </div>
       </div>
       <div class="section-info" data-example-id="thumbnails-with-custom-content">
+		 <h2 class="title-info" id="title-info">La plataforma que transforma la experiencia de enviar y recibir tus compras en linea.</h2>
          <div class="row rowsteps">
             <div class="col-sm-6 col-md-4 ico-info">
                <i class="icons ico1 fa fa-pencil-square-o" style="font-size: 4.6em !important" aria-hidden="true"></i>
