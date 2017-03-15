@@ -3209,8 +3209,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #286090;
-  border-color: #122b40;
+  background-color: #67C1A1;
+  border-color: #67C1A1;
 }
 .btn-primary:hover {
   color: #fff;
@@ -3221,8 +3221,7 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active,
 .open > .dropdown-toggle.btn-primary {
   color: #fff;
-  background-color: #286090;
-  border-color: #204d74;
+  background-color: #67C1A1;
 }
 .btn-primary:active:hover,
 .btn-primary.active:hover,
@@ -3234,8 +3233,8 @@ fieldset[disabled] .btn-default.focus {
 .btn-primary.active.focus,
 .open > .dropdown-toggle.btn-primary.focus {
   color: #fff;
-  background-color: #204d74;
-  border-color: #122b40;
+  background-color: #67C1A1;
+  border-color: #67C1A1;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -7525,14 +7524,40 @@ div.modal-body div {
       margin-top: -84px;
   }
 
-  div.modal-body div {
-      width: 94%;
-      margin-bottom: -1em;
+  .position-modal{
+    width: 80% !important;
+    margin-top: -3%;
+    margin-left: 9%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  div.modal-description.fields.measures.data-fields h3{
+    font-size: 1em;
+    color: #231F20;
+    padding: 0em 0em 0em 2em;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: auto;
   }
 
   .data-fields{
-    margin-left: 0%;
+    margin-left: 46%;
     width: 95% !important;
+  }
+
+  div.modal-description.fields h4{
+    margin-left: 30%;
+  }
+  #from-zip {
+    margin-left: 30%;
+    width: 80%;
+  }
+  #to-zip, #h-from-zip {
+    margin-left: -20%;
+    width: 80%;
   }
 
   .label-section3{
@@ -7556,10 +7581,10 @@ div.modal-body div {
   }
 
   .form-control-input{
-    width: 16%;
+    width: 10%;
   }
   .listo-modal{
-    width: 26%;
+    width: 35%;
   }
   .x-form-control-position{
     margin-bottom: 7%;
@@ -7862,10 +7887,35 @@ div.modal-body div {
     margin-bottom: 28%;
   }
 
+  div.modal-description.fields h4{
+    margin-left: 30%;
+  }
+  #from-zip {
+    margin-left: 30%;
+    width: 80%;
+  }
+  #to-zip, #h-from-zip {
+    margin-left: -20%;
+    width: 80%;
+  }
+
   .position-modal {
       width: 46% !important;
       margin-top: -8%;
       margin-left: 40%;
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content: space-around;
+  }
+
+  div.modal-description.fields.measures.data-fields h3{
+    font-size: 1em;
+    color: #231F20;
+    padding: 0em 0em 0em 2em;
+    box-sizing: border-box;
+    display: inline-block;
+    position: relative;
+    width: auto;
   }
 
   footer div.row1{
@@ -7886,13 +7936,13 @@ div.modal-body div {
   }
 
   .measures{
-    margin-left: 21%;
+    margin-left: 36%;
     width: 62% !important;
   }
 
   .listo-modal{
-    margin-left: -37%;
-    width: 37%;
+    margin-left: -69%;
+    width: 60%;
   }
 
 }

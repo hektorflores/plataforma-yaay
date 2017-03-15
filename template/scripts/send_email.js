@@ -1,6 +1,6 @@
 $( document ).ready(function() {
   (function(){
-        emailjs.init("user_P2YKTbgTYF73fi7nwKzwG");
+        emailjs.init("user_ItDPCopsJXdhgrz7ykWQK");
      })();
 
      $( "#cotizar" ).click(function() {
