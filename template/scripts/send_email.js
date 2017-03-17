@@ -23,7 +23,7 @@ $( document ).ready(function() {
 
       // Change to your service ID, or keep using the default service
       var service_id = "mailjet";
-      var template_id = "template_GMgJ5ISM";
+      var template_id = "template_FeQC30Wp";
 
       myform.find("button").text("Sending...");
       emailjs.sendForm(service_id,template_id,"myform")
