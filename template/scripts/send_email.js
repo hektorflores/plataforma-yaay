@@ -11,8 +11,9 @@ $( document ).ready(function() {
        var width_description = ($('#width-description').val()) ? $('#width-description').val() : "";
        var high_description = ($('#high-description').val()) ? $('#high-description').val() : "";
        var weight_description = ($('#weight-description').val()) ? $('#weight-description').val() : "";
-       var message_html = "Desde donde: " + form_to + " Hacia donde: " + to_zip + " Tipo: " + send_kind + " Largo: " + long_description + " Ancho: " + width_description + " Alto: " + high_description + " Peso: " + weight_description;
-       console.log("MEssage html " +message_html);
+       var email = ($('#email').val()) ? $('#email').val() : "";
+       var message_html = "Desde donde: " + form_to + " Hacia donde: " + to_zip + " Tipo: " + send_kind + " Largo: " + long_description + " Ancho: " + width_description + " Alto: " + high_description + " Peso: " + weight_description + " Email: " + email;
+       console.log("Message html " +message_html);
        $('#message_html').val(message_html);
        $("form#myform").submit();
     });
